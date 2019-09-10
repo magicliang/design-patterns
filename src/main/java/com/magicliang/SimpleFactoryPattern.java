@@ -1,5 +1,7 @@
 package com.magicliang;
 
+import org.apache.commons.lang3.StringUtils;
+
 /**
  * name: design-patterns
  * <p>
@@ -8,12 +10,12 @@ package com.magicliang;
  * @author magicliang
  * @date 2019-09-09 22:44
  */
-public class SimpileFactoryPattern {
+public class SimpleFactoryPattern {
 
     /**
      * 可乐工厂
      */
-    private CokeFactory cokeFactory;
+    private volatile CokeFactory cokeFactory;
 
     /**
      * 鞋子工厂
@@ -85,6 +87,10 @@ enum ProductTypeEnum {
      */
     Shoe("shoe"),
     ;
+
+    /**
+     * 类型
+     */
     private String type;
 
     /**
@@ -95,6 +101,28 @@ enum ProductTypeEnum {
         this.type = type;
     }
 
+    /**
+     * 通过类型获取枚举
+     * @param type 类型
+     * @return 枚举
+     */
+    ProductTypeEnum getByType(String type) {
+        if (StringUtils.isBlank(type)) {
+            return null;
+        }
+        for (ProductTypeEnum typeEnum : ProductTypeEnum.values()) {
+            if (StringUtils.equals(typeEnum.getType(), type)) {
+                return typeEnum;
+            }
+        }
+        return null;
+    }
+
+    /**
+     * get the value of type
+     *
+     * @return the value of type
+     */
     public String getType() {
         return type;
     }
@@ -121,6 +149,7 @@ class Coke implements Product {
      *
      * @return 产品类型
      */
+    @Override
     public ProductTypeEnum type() {
         return ProductTypeEnum.Coke;
     }
@@ -135,6 +164,7 @@ class Shoe implements Product {
      *
      * @return 产品类型
      */
+    @Override
     public ProductTypeEnum type() {
         return ProductTypeEnum.Shoe;
     }

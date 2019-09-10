@@ -12,20 +12,20 @@ import static org.testng.Assert.*;
  * @author magicliang
  * @date 2019-09-10 09:54
  */
-public class SimpileFactoryPatternTest {
+public class SimpleFactoryPatternTest {
 
 
     @Test
     public void testProduceCoke() {
-        SimpileFactoryPattern simpileFactoryPattern = new SimpileFactoryPattern();
-        Product product = simpileFactoryPattern.produceCoke();
+        SimpleFactoryPattern simpleFactoryPattern = new SimpleFactoryPattern();
+        Product product = simpleFactoryPattern.produceCoke();
         assertEquals(ProductTypeEnum.Coke, product.type());
     }
 
     @Test
     public void testProduceShoe() {
-        SimpileFactoryPattern simpileFactoryPattern = new SimpileFactoryPattern();
-        Product product = simpileFactoryPattern.produceShoe();
+        SimpleFactoryPattern simpleFactoryPattern = new SimpleFactoryPattern();
+        Product product = simpleFactoryPattern.produceShoe();
         assertEquals(ProductTypeEnum.Shoe, product.type());
     }
 }
