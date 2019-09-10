@@ -21,7 +21,7 @@ gen
 .mtj.tmp/
 
 # target 文件夹
-target
+target/*
 
 # Package Files #
 *.jar
