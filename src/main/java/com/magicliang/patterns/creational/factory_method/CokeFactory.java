@@ -3,7 +3,7 @@ package com.magicliang.patterns.creational.factory_method;
 import com.magicliang.patterns.model.Coke;
 
 /**
- * name: design-patterns
+ * project name: design-patterns
  * <p>
  * description: 可乐工厂
  *

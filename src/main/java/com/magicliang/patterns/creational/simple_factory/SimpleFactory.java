@@ -4,7 +4,7 @@ import com.magicliang.patterns.enums.ProductTypeEnum;
 import com.magicliang.patterns.model.Product;
 
 /**
- * name: design-patterns
+ * project name: design-patterns
  * <p>
  * description: 简单工厂接口
  *

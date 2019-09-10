@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 
 /**
- * name: design-patterns
+ * project name: design-patterns
  * <p>
  * description:
  *

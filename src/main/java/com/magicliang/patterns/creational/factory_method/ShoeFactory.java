@@ -3,7 +3,7 @@ package com.magicliang.patterns.creational.factory_method;
 import com.magicliang.patterns.model.Shoe;
 
 /**
- * name: design-patterns
+ * project name: design-patterns
  * <p>
  * description: 鞋子工厂
  *

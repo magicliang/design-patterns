@@ -3,7 +3,7 @@ package com.magicliang.patterns.enums;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * name: design-patterns
+ * project name: design-patterns
  * <p>
  * description: 产品类型枚举
  *

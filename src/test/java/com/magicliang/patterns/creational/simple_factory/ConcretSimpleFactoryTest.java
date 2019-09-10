@@ -8,7 +8,7 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertNotNull;
 
 /**
- * name: design-patterns
+ * project name: design-patterns
  * <p>
  * description: 测试简单工厂模式的结果
  *

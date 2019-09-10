@@ -3,7 +3,7 @@ package com.magicliang.patterns.model;
 import com.magicliang.patterns.enums.ProductTypeEnum;
 
 /**
- * name: design-patterns
+ * project name: design-patterns
  * <p>
  * description: 鞋子
  *

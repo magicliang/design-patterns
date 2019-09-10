@@ -1,7 +1,7 @@
 package com.magicliang.patterns.creational.singleton;
 
 /**
- * name: design-patterns
+ * project name: design-patterns
  * <p>
  * description: 单例模式
  *
@@ -13,12 +13,12 @@ public class Singleton {
     /**
      * 饿汉模式单例
      */
-    public static final Singleton singleton1 = new Singleton();
+    public static final Singleton SINGLETON = new Singleton();
 
     /**
      * 懒汉模式单例
      */
-    private volatile Singleton singleton2;
+    private volatile Singleton lazy_singleton;
 
     /**
      * 单例模式
@@ -31,12 +31,12 @@ public class Singleton {
      *
      * @return the value of singleton2
      */
-    public Singleton getSingleton2() {
-        Singleton result = singleton2;
+    public Singleton getLazy_singleton() {
+        Singleton result = lazy_singleton;
         if (result == null) {
             synchronized (this) {
-                if (singleton2 == null) {
-                    singleton2 = result = new Singleton();
+                if (lazy_singleton == null) {
+                    lazy_singleton = result = new Singleton();
                 }
             }
         }

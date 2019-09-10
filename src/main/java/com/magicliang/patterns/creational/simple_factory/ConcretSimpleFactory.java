@@ -6,7 +6,7 @@ import com.magicliang.patterns.model.Product;
 import com.magicliang.patterns.model.Shoe;
 
 /**
- * name: design-patterns
+ * project name: design-patterns
  * <p>
  * description: 简单工厂模式，无法使用泛型
  * Spring 中的 static factory method 都使用这种模式

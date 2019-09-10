@@ -3,7 +3,7 @@ package com.magicliang.patterns.creational.factory_method;
 import com.magicliang.patterns.model.Product;
 
 /**
- * name: design-patterns
+ * project name: design-patterns
  * <p>
  * description: 工厂方法模式，使用泛型
  *
