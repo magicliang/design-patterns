@@ -3,7 +3,7 @@ package com.magicliang.patterns.creational.builder;
 /**
  * project name: design-patterns
  * <p>
- * description: 人构建器
+ * description: 人建造者
  *
  * @author magicliang
  * @date 2019-09-10 22:48
@@ -27,9 +27,9 @@ public class Person {
     }
 
     /**
-     * 通过构建器生成人实例
+     * 通过建造者生成人实例
      *
-     * @param builder 构建器
+     * @param builder 建造者
      */
     public Person(Builder builder) {
         this.name = builder.getName();
@@ -55,7 +55,7 @@ public class Person {
     }
 
     /**
-     * 人构建器
+     * 人建造者
      */
     public static class Builder {
         /**

@@ -18,7 +18,7 @@ public class Singleton {
     /**
      * 懒汉模式单例
      */
-    private volatile Singleton lazy_singleton;
+    private volatile Singleton lazySingleton;
 
     /**
      * 单例模式
@@ -31,12 +31,12 @@ public class Singleton {
      *
      * @return the value of singleton2
      */
-    public Singleton getLazy_singleton() {
-        Singleton result = lazy_singleton;
+    public Singleton getLazySingleton() {
+        Singleton result = lazySingleton;
         if (result == null) {
             synchronized (this) {
-                if (lazy_singleton == null) {
-                    lazy_singleton = result = new Singleton();
+                if (lazySingleton == null) {
+                    lazySingleton = result = new Singleton();
                 }
             }
         }

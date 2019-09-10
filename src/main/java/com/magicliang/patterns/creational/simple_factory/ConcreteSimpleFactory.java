@@ -14,7 +14,7 @@ import com.magicliang.patterns.model.Shoe;
  * @author magicliang
  * @date 2019-09-10 17:23
  */
-public class ConcretSimpleFactory implements SimpleFactory {
+public class ConcreteSimpleFactory implements SimpleFactory {
 
     /**
      * 生产产品接口

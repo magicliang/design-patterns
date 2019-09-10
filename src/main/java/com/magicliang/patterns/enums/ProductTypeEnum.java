@@ -24,7 +24,7 @@ public enum ProductTypeEnum {
     /**
      * 类型
      */
-    private String type;
+    private final String type;
 
     /**
      * 构造函数
