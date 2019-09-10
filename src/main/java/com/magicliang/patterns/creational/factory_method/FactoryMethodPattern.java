@@ -51,9 +51,8 @@ public class FactoryMethodPattern {
         CokeFactory result = cokeFactory;
         if (result == null) {
             synchronized (this) {
-                result = cokeFactory;
-                if (result == null) {
-                    result = cokeFactory = new CokeFactory();
+                if (cokeFactory == null) {
+                    cokeFactory = result = new CokeFactory();
                 }
             }
         }
@@ -70,9 +69,8 @@ public class FactoryMethodPattern {
         ShoeFactory result = shoeFactory;
         if (result == null) {
             synchronized (this) {
-                result = shoeFactory;
-                if (result == null) {
-                    result = shoeFactory = new ShoeFactory();
+                if (shoeFactory == null) {
+                    shoeFactory = result = new ShoeFactory();
                 }
             }
         }
