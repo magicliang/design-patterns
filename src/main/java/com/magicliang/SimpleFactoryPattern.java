@@ -20,7 +20,7 @@ public class SimpleFactoryPattern {
     /**
      * 鞋子工厂
      */
-    private ShoeFactory shoeFactory;
+    private volatile ShoeFactory shoeFactory;
 
     /**
      * 生产可乐
@@ -44,15 +44,17 @@ public class SimpleFactoryPattern {
      * @return 可乐工厂
      */
     public CokeFactory getCokeFactory() {
-        if (cokeFactory == null) {
+        CokeFactory result = cokeFactory;
+        if (result == null) {
             synchronized (this) {
-                if (cokeFactory == null) {
-                    cokeFactory = new CokeFactory();
+                result = cokeFactory;
+                if (result == null) {
+                    result = cokeFactory = new CokeFactory();
                 }
             }
         }
 
-        return cokeFactory;
+        return result;
     }
 
     /**
@@ -60,15 +62,17 @@ public class SimpleFactoryPattern {
      * @return 鞋子工厂
      */
     public ShoeFactory getShoeFactory() {
-        if (shoeFactory == null) {
+        ShoeFactory result = shoeFactory;
+        if (result == null) {
             synchronized (this) {
-                if (shoeFactory == null) {
-                    shoeFactory = new ShoeFactory();
+                result = shoeFactory;
+                if (result == null) {
+                    result = shoeFactory = new ShoeFactory();
                 }
             }
         }
 
-        return shoeFactory;
+        return result;
     }
 
 
