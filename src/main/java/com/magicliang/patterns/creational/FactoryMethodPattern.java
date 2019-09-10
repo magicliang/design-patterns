@@ -5,12 +5,12 @@ import org.apache.commons.lang3.StringUtils;
 /**
  * name: design-patterns
  * <p>
- * description: 简单工厂模式，使用泛型
+ * description: 工厂方法模式，使用泛型
  *
  * @author magicliang
  * @date 2019-09-09 22:44
  */
-public class SimpleFactoryPattern {
+public class FactoryMethodPattern {
 
     /**
      * 可乐工厂
