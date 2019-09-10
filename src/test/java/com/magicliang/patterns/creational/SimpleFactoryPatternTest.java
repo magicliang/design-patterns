@@ -1,8 +1,8 @@
-package com.magicliang;
+package com.magicliang.patterns.creational;
 
 import org.testng.annotations.Test;
 
-import static org.testng.Assert.*;
+import static org.testng.Assert.assertEquals;
 
 /**
  * name: SimpileFactoryPatternTest

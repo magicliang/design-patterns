@@ -1,4 +1,4 @@
-package com.magicliang;
+package com.magicliang.patterns.creational;
 
 import org.apache.commons.lang3.StringUtils;
 
