@@ -1,6 +1,5 @@
-package com.magicliang.patterns.creational;
+package com.magicliang.patterns.creational.factory_method;
 
-import com.magicliang.patterns.creational.factory_method.FactoryMethodPattern;
 import com.magicliang.patterns.enums.ProductTypeEnum;
 import com.magicliang.patterns.model.Product;
 import org.testng.annotations.Test;
@@ -8,15 +7,14 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 
 /**
- * name: FactoryMethodPatternTest
+ * name: design-patterns
  * <p>
- * description: 工厂方法模式测试
+ * description:
  *
  * @author magicliang
- * @date 2019-09-10 09:54
+ * @date 2019-09-10 17:45
  */
 public class FactoryMethodPatternTest {
-
 
     @Test
     public void testProduceCoke() {
@@ -31,4 +29,5 @@ public class FactoryMethodPatternTest {
         Product product = factoryMethodPattern.produceShoe();
         assertEquals(ProductTypeEnum.Shoe, product.type());
     }
+
 }
