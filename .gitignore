@@ -20,6 +20,9 @@ gen
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+# target 文件夹
+target
+
 # Package Files #
 *.jar
 *.war
