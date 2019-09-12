@@ -4,6 +4,7 @@ import com.magicliang.enums.ProductTypeEnum;
 import com.magicliang.model.Product;
 import org.testng.annotations.Test;
 
+
 /**
  * project name: design-patterns
  * <p>
