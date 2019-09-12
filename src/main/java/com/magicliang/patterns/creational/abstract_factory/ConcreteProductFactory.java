@@ -1,7 +1,7 @@
 package com.magicliang.patterns.creational.abstract_factory;
 
-import com.magicliang.patterns.model.Coke;
-import com.magicliang.patterns.model.Shoe;
+import com.magicliang.model.Coke;
+import com.magicliang.model.Shoe;
 
 /**
  * project name: design-patterns

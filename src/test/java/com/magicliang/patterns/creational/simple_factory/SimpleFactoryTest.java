@@ -1,10 +1,9 @@
 package com.magicliang.patterns.creational.simple_factory;
 
-import com.magicliang.patterns.enums.ProductTypeEnum;
-import com.magicliang.patterns.model.Product;
+import com.magicliang.enums.ProductTypeEnum;
+import com.magicliang.model.Product;
 import org.testng.annotations.Test;
 
-import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertNotNull;
 
 /**

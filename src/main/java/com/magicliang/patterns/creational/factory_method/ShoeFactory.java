@@ -1,6 +1,6 @@
 package com.magicliang.patterns.creational.factory_method;
 
-import com.magicliang.patterns.model.Shoe;
+import com.magicliang.model.Shoe;
 
 /**
  * project name: design-patterns

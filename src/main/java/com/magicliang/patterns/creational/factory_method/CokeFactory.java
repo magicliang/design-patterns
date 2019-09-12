@@ -1,6 +1,6 @@
 package com.magicliang.patterns.creational.factory_method;
 
-import com.magicliang.patterns.model.Coke;
+import com.magicliang.model.Coke;
 
 /**
  * project name: design-patterns
@@ -18,6 +18,6 @@ public class CokeFactory implements AbstractFactory<Coke> {
      */
     @Override
     public Coke produce() {
-        return new com.magicliang.patterns.model.Coke();
+        return new com.magicliang.model.Coke();
     }
 }

@@ -1,4 +1,4 @@
-package com.magicliang.patterns.enums;
+package com.magicliang.enums;
 
 import org.apache.commons.lang3.StringUtils;
 

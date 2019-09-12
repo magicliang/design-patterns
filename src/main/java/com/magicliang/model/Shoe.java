@@ -1,6 +1,6 @@
-package com.magicliang.patterns.model;
+package com.magicliang.model;
 
-import com.magicliang.patterns.enums.ProductTypeEnum;
+import com.magicliang.enums.ProductTypeEnum;
 
 /**
  * project name: design-patterns
