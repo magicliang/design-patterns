@@ -15,17 +15,16 @@ import static org.testng.Assert.assertNotNull;
  * @author magicliang
  * @date 2019-09-10 17:57
  */
-public class ConcreteSimpleFactoryTest {
+public class SimpleFactoryTest {
 
     @Test
     public void testCreateProduct() {
-        ConcreteSimpleFactory concreteSimpleFactory = new ConcreteSimpleFactory();
 
-        Product product = concreteSimpleFactory.createProduct(ProductTypeEnum.Coke);
+        Product product = SimpleFactory.createProduct(ProductTypeEnum.Coke);
         assertNotNull(product);
         assertEquals(ProductTypeEnum.Coke, product.type());
 
-        product = concreteSimpleFactory.createProduct(ProductTypeEnum.Shoe);
+        product = SimpleFactory.createProduct(ProductTypeEnum.Shoe);
         assertNotNull(product);
         assertEquals(ProductTypeEnum.Shoe, product.type());
 
