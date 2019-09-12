@@ -11,5 +11,31 @@ package com.magicliang.patterns.structrural.bridge;
  */
 public abstract class AbstractComputer {
 
-    public abstract void caculate();
+    /**
+     * 打印机组件
+     */
+    private Printer printer;
+
+    /**
+     * 抽象计算方法，抽象层的可变化点
+     *
+     * @return 计算结果
+     */
+    public abstract int calculate();
+
+    /**
+     * 计算机打印，类似适配器模式但不是适配器模式
+     */
+    public void computerPrint() {
+        printer.print();
+    }
+
+    /**
+     * 构造函数
+     *
+     * @param printer 打印机
+     */
+    public AbstractComputer(Printer printer) {
+        this.printer = printer;
+    }
 }
