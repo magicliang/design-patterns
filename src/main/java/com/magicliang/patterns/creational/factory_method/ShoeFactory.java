@@ -8,7 +8,7 @@ import com.magicliang.patterns.model.Shoe;
  * description: 鞋子工厂
  *
  * @author magicliang
- * @date 2019-09-10 17:33
+ * date: 2019-09-10 17:33
  */
 public class ShoeFactory implements AbstractFactory<Shoe> {
     /**

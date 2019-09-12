@@ -10,7 +10,7 @@ import com.magicliang.patterns.enums.ProductTypeEnum;
  * 产品接口
  *
  * @author magicliang
- * @date 2019-09-10 17:28
+ * date: 2019-09-10 17:28
  */
 public interface Product {
     /**

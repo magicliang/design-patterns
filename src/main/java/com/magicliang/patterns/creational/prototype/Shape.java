@@ -6,7 +6,7 @@ package com.magicliang.patterns.creational.prototype;
  * description: 基本形状，支持 clone
  *
  * @author magicliang
- * @date 2019-09-10 23:24
+ * date: 2019-09-10 23:24
  */
 public class Shape implements Cloneable {
     /**

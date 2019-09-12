@@ -8,7 +8,7 @@ import org.apache.commons.lang3.StringUtils;
  * description: 产品类型枚举
  *
  * @author magicliang
- * @date 2019-09-10 17:27
+ * date: 2019-09-10 17:27
  */
 public enum ProductTypeEnum {
     /**

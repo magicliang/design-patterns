@@ -12,7 +12,7 @@ import static org.testng.Assert.assertEquals;
  * description:
  *
  * @author magicliang
- * @date 2019-09-10 17:45
+ * date: 2019-09-10 17:45
  */
 public class FactoryMethodPatternTest {
 

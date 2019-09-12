@@ -6,7 +6,7 @@ package com.magicliang.patterns.creational.builder;
  * description: 人建造者
  *
  * @author magicliang
- * @date 2019-09-10 22:48
+ * date: 2019-09-10 22:48
  */
 public class Person {
 
@@ -79,8 +79,8 @@ public class Person {
 
         /**
          * set the value of the name
-         *
          * @param name the value of name
+         * @return 建造者
          */
         public Builder setName(String name) {
             this.name = name;
@@ -91,6 +91,7 @@ public class Person {
          * set the value of the age
          *
          * @param age the value of age
+         * @return 建造者
          */
         public Builder setAge(int age) {
             this.age = age;

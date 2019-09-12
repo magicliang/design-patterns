@@ -14,7 +14,7 @@ import static org.testng.Assert.assertEquals;
  * description:
  *
  * @author magicliang
- * @date 2019-09-12 15:06
+ * date: 2019-09-12 15:06
  */
 public class ConcreteProductFactoryTest {
 

@@ -8,7 +8,7 @@ import com.magicliang.patterns.enums.ProductTypeEnum;
  * description: 鞋子
  *
  * @author magicliang
- * @date 2019-09-10 17:25
+ * date: 2019-09-10 17:25
  */
 public class Shoe implements Product {
 

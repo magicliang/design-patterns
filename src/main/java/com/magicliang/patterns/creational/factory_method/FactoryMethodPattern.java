@@ -8,7 +8,7 @@ import com.magicliang.patterns.model.Product;
  * description: 工厂方法模式，使用泛型
  *
  * @author magicliang
- * @date 2019-09-09 22:44
+ * date: 2019-09-09 22:44
  */
 public class FactoryMethodPattern {
 

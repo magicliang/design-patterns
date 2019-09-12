@@ -9,7 +9,7 @@ import com.magicliang.patterns.model.Shoe;
  * description: 抽象工厂接口
  *
  * @author magicliang
- * @date 2019-09-12 15:00
+ * date: 2019-09-12 15:00
  */
 public interface AbstractProductFactory {
 

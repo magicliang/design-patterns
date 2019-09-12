@@ -11,7 +11,7 @@ import static org.testng.Assert.assertNotNull;
  * description: 测试建造者
  *
  * @author magicliang
- * @date 2019-09-10 23:02
+ * date: 2019-09-10 23:02
  */
 public class PersonTest {
 

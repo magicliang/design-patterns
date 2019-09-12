@@ -8,7 +8,7 @@ import com.magicliang.patterns.model.Coke;
  * description: 可乐工厂
  *
  * @author magicliang
- * @date 2019-09-10 17:32
+ * date: 2019-09-10 17:32
  */
 public class CokeFactory implements AbstractFactory<Coke> {
     /**

@@ -10,7 +10,7 @@ import static org.testng.Assert.assertTrue;
  * description:
  *
  * @author magicliang
- * @date 2019-09-10 23:36
+ * date: 2019-09-10 23:36
  */
 public class ShapeTest {
 

@@ -13,7 +13,7 @@ import static org.testng.Assert.assertNotNull;
  * description: 测试简单工厂模式的结果
  *
  * @author magicliang
- * @date 2019-09-10 17:57
+ * date: 2019-09-10 17:57
  */
 public class SimpleFactoryTest {
 
