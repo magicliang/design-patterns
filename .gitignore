@@ -23,6 +23,9 @@ gen
 # target 文件夹
 target/*
 
+# javadocs 文件夹
+javadocs/*
+
 # Package Files #
 *.jar
 *.war
