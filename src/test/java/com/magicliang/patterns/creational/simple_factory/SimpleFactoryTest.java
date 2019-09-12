@@ -4,9 +4,8 @@ import com.magicliang.enums.ProductTypeEnum;
 import com.magicliang.model.Product;
 import org.testng.annotations.Test;
 
-import static org.testng.Assert.assertNotNull;
-
 import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertNotNull;
 
 
 /**

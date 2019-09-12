@@ -3,6 +3,7 @@ package com.magicliang.patterns.creational.factory_method;
 import com.magicliang.enums.ProductTypeEnum;
 import com.magicliang.model.Product;
 import org.testng.annotations.Test;
+
 import static org.testng.Assert.assertEquals;
 
 
