@@ -19,7 +19,7 @@ public class SubjectProxy implements Subject {
     /**
      * 注意，代理模式的客体是强生命周期关联的，是组合关系，在构造函数中必须体现这一点
      *
-     * @param realSubject
+     * @param realSubject 真实客体
      */
     public SubjectProxy(Subject realSubject) {
         this.realSubject = realSubject;

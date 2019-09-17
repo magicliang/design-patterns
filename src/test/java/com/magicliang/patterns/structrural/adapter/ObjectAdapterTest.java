@@ -18,7 +18,7 @@ public class ObjectAdapterTest {
     @Test
     public void testRequest() {
         ObjectAdapter objectAdapter = new ObjectAdapter();
-        objectAdapter.setAdaptee(new Adaptee());
+        objectAdapter.setAdapted(new Adapted());
         assertNotNull(objectAdapter.request());
     }
 }

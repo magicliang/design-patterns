@@ -14,7 +14,7 @@ public class ObjectAdapter implements ITarget {
     /**
      * 被适配类型
      */
-    private Adaptee adaptee;
+    private Adapted adapted;
 
     /**
      * 普通请求
@@ -23,15 +23,15 @@ public class ObjectAdapter implements ITarget {
      */
     @Override
     public Object request() {
-        return adaptee.specialRequest();
+        return adapted.specialRequest();
     }
 
     /**
      * set the value of the adaptee
      *
-     * @param adaptee the value of adaptee
+     * @param adapted the value of adaptee
      */
-    public void setAdaptee(Adaptee adaptee) {
-        this.adaptee = adaptee;
+    public void setAdapted(Adapted adapted) {
+        this.adapted = adapted;
     }
 }

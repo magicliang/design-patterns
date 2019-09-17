@@ -9,7 +9,7 @@ package com.magicliang.patterns.structrural.adapter;
  * <p>
  * date: 2019-09-12 16:37
  */
-public class ClassAdapter extends Adaptee implements ITarget {
+public class ClassAdapter extends Adapted implements ITarget {
     /**
      * 普通请求
      *

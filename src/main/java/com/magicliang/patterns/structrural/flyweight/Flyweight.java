@@ -14,46 +14,46 @@ public class Flyweight {
     /**
      * 内生状态
      */
-    private final Integer intrisicState;
+    private final Integer intrinsicState;
 
     /**
      * 环境状态
      */
-    private Integer extrisicState;
+    private Integer extrinsicState;
 
     /**
      * 构造器
      *
-     * @param intrisicState 内生状态
+     * @param intrinsicState 内生状态
      */
-    public Flyweight(Integer intrisicState) {
-        this.intrisicState = intrisicState;
+    public Flyweight(Integer intrinsicState) {
+        this.intrinsicState = intrinsicState;
     }
 
     /**
-     * get the value of intrisicState
+     * get the value of intrinsicState
      *
-     * @return the value of intrisicState
+     * @return the value of intrinsicState
      */
-    public Integer getIntrisicState() {
-        return intrisicState;
+    public Integer getIntrinsicState() {
+        return intrinsicState;
     }
 
     /**
-     * get the value of extrisicState
+     * get the value of extrinsicState
      *
-     * @return the value of extrisicState
+     * @return the value of extrinsicState
      */
-    public Integer getExtrisicState() {
-        return extrisicState;
+    public Integer getExtrinsicState() {
+        return extrinsicState;
     }
 
     /**
-     * set the value of the extrisicState
+     * set the value of the extrinsicState
      *
-     * @param extrisicState the value of extrisicState
+     * @param extrinsicState the value of extrinsicState
      */
-    public void setExtrisicState(Integer extrisicState) {
-        this.extrisicState = extrisicState;
+    public void setExtrinsicState(Integer extrinsicState) {
+        this.extrinsicState = extrinsicState;
     }
 }

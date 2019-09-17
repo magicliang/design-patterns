@@ -35,7 +35,7 @@ public class Leaf implements Component {
     /**
      * 获取特定位置的孩子节点
      *
-     * @param index
+     * @param index 索引
      * @return 孩子节点
      */
     @Override

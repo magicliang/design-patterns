@@ -20,6 +20,6 @@ public class FlyweightFactoryTest {
         FlyweightFactory flyweightFactory = new FlyweightFactoryImpl();
         Integer intrinsicState = 1000;
         Flyweight flyweight = flyweightFactory.getFlyweight(intrinsicState);
-        assertEquals(intrinsicState, flyweight.getIntrisicState());
+        assertEquals(intrinsicState, flyweight.getIntrinsicState());
     }
 }

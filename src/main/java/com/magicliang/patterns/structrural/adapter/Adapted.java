@@ -9,7 +9,7 @@ package com.magicliang.patterns.structrural.adapter;
  * <p>
  * date: 2019-09-12 16:31
  */
-public class Adaptee {
+public class Adapted {
     public Object specialRequest() {
         System.out.println("specialRequest");
         return new Object();
