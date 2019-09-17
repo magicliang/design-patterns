@@ -14,7 +14,7 @@ public abstract class AbstractComputer {
     /**
      * 打印机组件
      */
-    private Printer printer;
+    final private Printer printer;
 
     /**
      * 抽象计算方法，抽象层的可变化点

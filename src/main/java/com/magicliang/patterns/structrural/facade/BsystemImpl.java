@@ -9,8 +9,8 @@ package com.magicliang.patterns.structrural.facade;
  * <p>
  * date: 2019-09-16 16:02
  */
-public class SystemImplB implements Service {
-    
+public class BsystemImpl implements Service {
+
     /**
      * 服务操作
      */

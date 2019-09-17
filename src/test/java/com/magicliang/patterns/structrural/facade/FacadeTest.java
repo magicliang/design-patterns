@@ -17,7 +17,7 @@ public class FacadeTest {
 
     @Test
     public void testWrapOperation() {
-        Facade facade = new FacadeImpl(new SystemImplA(), new SystemImplB());
+        Facade facade = new FacadeImpl(new AsystemImpl(), new BsystemImpl());
         facade.wrapOperation();
         assertNotNull(facade);
     }

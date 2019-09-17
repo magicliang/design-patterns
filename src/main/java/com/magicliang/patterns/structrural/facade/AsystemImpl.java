@@ -9,7 +9,7 @@ package com.magicliang.patterns.structrural.facade;
  * <p>
  * date: 2019-09-16 16:01
  */
-public class SystemImplA implements Service {
+public class AsystemImpl implements Service {
 
     /**
      * 服务操作

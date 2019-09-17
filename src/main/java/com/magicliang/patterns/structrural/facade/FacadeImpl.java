@@ -14,12 +14,12 @@ public class FacadeImpl implements Facade {
     /**
      *
      */
-    private SystemImplA systemImplA;
+    private AsystemImpl aSystemImpl;
 
     /**
      * B 系统实例
      */
-    private SystemImplB systemImplB;
+    private BsystemImpl bSystemImpl;
 
     /**
      * 空构造器
@@ -31,12 +31,12 @@ public class FacadeImpl implements Facade {
     /**
      * 构造器
      *
-     * @param systemImplA A 系统实例
-     * @param systemImplB B 系统实例
+     * @param aSystemImpl A 系统实例
+     * @param bSystemImpl B 系统实例
      */
-    public FacadeImpl(SystemImplA systemImplA, SystemImplB systemImplB) {
-        this.systemImplA = systemImplA;
-        this.systemImplB = systemImplB;
+    public FacadeImpl(AsystemImpl aSystemImpl, BsystemImpl bSystemImpl) {
+        this.aSystemImpl = aSystemImpl;
+        this.bSystemImpl = bSystemImpl;
     }
 
     /**
@@ -44,25 +44,25 @@ public class FacadeImpl implements Facade {
      */
     @Override
     public void wrapOperation() {
-        systemImplA.operation();
-        systemImplB.operation();
+        aSystemImpl.operation();
+        bSystemImpl.operation();
     }
 
     /**
      * set the value of the systemA
      *
-     * @param systemImplA the value of systemA
+     * @param aSystemImpl the value of systemA
      */
-    public void setSystemImplA(SystemImplA systemImplA) {
-        this.systemImplA = systemImplA;
+    public void setaSystemImpl(AsystemImpl aSystemImpl) {
+        this.aSystemImpl = aSystemImpl;
     }
 
     /**
      * set the value of the systemB
      *
-     * @param systemImplB the value of systemB
+     * @param bSystemImpl the value of systemB
      */
-    public void setSystemImplB(SystemImplB systemImplB) {
-        this.systemImplB = systemImplB;
+    public void setbSystemImpl(BsystemImpl bSystemImpl) {
+        this.bSystemImpl = bSystemImpl;
     }
 }
