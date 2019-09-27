@@ -1,5 +1,7 @@
 package com.magicliang.patterns.behavioral;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -13,13 +15,23 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 public class ConcreteChainedToJsonHandler extends AbstractChainedHandler<Object> {
+
     /**
      * 真处理逻辑
      *
      * @param o 请求
      */
     @Override
-    void realHandle(Object o) {
-        log.info(o.toString());
+    protected void realHandle(Object o) {
+
+        ObjectMapper mapper = new ObjectMapper();
+
+        try {
+            String jsonString = mapper.writerWithDefaultPrettyPrinter()
+                    .writeValueAsString(o);
+            log.info(jsonString);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
     }
 }

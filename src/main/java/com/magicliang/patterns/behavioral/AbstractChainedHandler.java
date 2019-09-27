@@ -43,5 +43,5 @@ public abstract class AbstractChainedHandler<Request> implements IChainedHandler
      *
      * @param request 请求
      */
-    abstract void realHandle(Request request);
+    protected abstract void realHandle(Request request);
 }

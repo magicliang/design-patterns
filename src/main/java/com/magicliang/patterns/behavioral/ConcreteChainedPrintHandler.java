@@ -20,7 +20,7 @@ public class ConcreteChainedPrintHandler extends AbstractChainedHandler<Object> 
      * @param o 请求
      */
     @Override
-    void realHandle(Object o) {
+    protected void realHandle(Object o) {
         log.info(o.toString());
     }
 }
