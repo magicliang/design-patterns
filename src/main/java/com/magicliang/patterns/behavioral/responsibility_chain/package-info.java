@@ -9,4 +9,4 @@
  * <p>
  * date: 2019-09-27 14:45
  */
-package com.magicliang.patterns.behavioral;
+package com.magicliang.patterns.behavioral.responsibility_chain;

@@ -1,4 +1,4 @@
-package com.magicliang.patterns.behavioral;
+package com.magicliang.patterns.behavioral.responsibility_chain;
 
 import com.google.common.collect.Maps;
 import org.testng.annotations.Test;

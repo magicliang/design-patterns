@@ -1,4 +1,4 @@
-package com.magicliang.patterns.behavioral;
+package com.magicliang.patterns.behavioral.responsibility_chain;
 
 import lombok.Getter;
 import lombok.Setter;
