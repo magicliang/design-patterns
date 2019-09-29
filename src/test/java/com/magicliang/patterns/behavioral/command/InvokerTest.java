@@ -16,6 +16,7 @@ public class InvokerTest {
 
     @Test
     public void testInvoke() {
+
         Television television = new Television();
 
         // 注意，容器此处是无法协变的，大家都要按具体类型实参来
