@@ -14,7 +14,7 @@ public interface Member {
     /**
      * 获取成员id
      *
-     * @return
+     * @return id
      */
     String getId();
 

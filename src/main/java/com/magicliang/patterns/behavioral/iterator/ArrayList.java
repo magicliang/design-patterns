@@ -51,7 +51,7 @@ public class ArrayList<T> implements List<T> {
     /**
      * 初始化器
      *
-     * @param capacity
+     * @param capacity 容量
      */
     public ArrayList(int capacity) {
         this.size = 0;
@@ -74,7 +74,7 @@ public class ArrayList<T> implements List<T> {
     public void add(T e) {
         int targetSize = size + 1;
         if (targetSize > elementData.length) {
-            douleGrow();
+            doubleGrow();
         }
         elementData[size++] = e;
     }
@@ -82,7 +82,7 @@ public class ArrayList<T> implements List<T> {
     /**
      * 增长
      */
-    private void douleGrow() {
+    private void doubleGrow() {
         // 默认2倍增长
         elementData = Arrays.copyOf(elementData, elementData.length * 2);
     }
@@ -90,7 +90,7 @@ public class ArrayList<T> implements List<T> {
     /**
      * 生成迭代器
      *
-     * @return
+     * @return 迭代器
      */
     @Override
     public Iterator<T> getIterator() {

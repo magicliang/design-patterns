@@ -29,12 +29,8 @@ public class CareTaker {
      * @param originator 创始人
      */
     public void saveState(Originator originator) {
-        Memento<String> memento = originator.saveToMemoto();
-        List<Memento<String>> mementos = map.get(originator);
-        if (null == mementos) {
-            mementos = Lists.newArrayList();
-            map.put(originator, mementos);
-        }
+        Memento<String> memento = originator.saveToMemento();
+        List<Memento<String>> mementos = map.computeIfAbsent(originator, k -> Lists.newArrayList());
         mementos.add(memento);
     }
 
@@ -58,7 +54,7 @@ public class CareTaker {
         }
 
         Memento<String> memento = mementos.remove(0);
-        originator.restoreFromMememto(memento);
+        originator.restoreFromMemento(memento);
     }
 
 }

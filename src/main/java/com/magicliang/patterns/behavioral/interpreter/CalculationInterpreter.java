@@ -11,7 +11,7 @@ import java.util.Map;
  * <p>
  * date: 2019-09-29 19:34
  */
-public class CaculationInterpreter {
+public class CalculationInterpreter {
 
     @FunctionalInterface
     public interface Expr {
@@ -20,7 +20,7 @@ public class CaculationInterpreter {
          * 解释
          *
          * @param context 上下文
-         * @return
+         * @return 结果
          */
         int interpret(Map<String, Integer> context);
 

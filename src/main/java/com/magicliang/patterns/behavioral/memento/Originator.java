@@ -31,7 +31,7 @@ public class Originator {
      *
      * @return 备忘录
      */
-    public Memento<String> saveToMemoto() {
+    public Memento<String> saveToMemento() {
         log.info("saveToMemoto:" + state);
         return new Memento<>(state);
     }
@@ -41,7 +41,7 @@ public class Originator {
      *
      * @param memento 备忘录
      */
-    public void restoreFromMememto(Memento<String> memento) {
+    public void restoreFromMemento(Memento<String> memento) {
         state = memento.getState();
         log.info("restoreFromMememto:" + state);
     }

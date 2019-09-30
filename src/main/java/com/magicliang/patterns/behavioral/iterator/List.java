@@ -21,7 +21,7 @@ public interface List<T> extends Iterable<T> {
     /**
      * 生成迭代器
      *
-     * @return
+     * @return 迭代器
      */
     @Override
     Iterator<T> getIterator();

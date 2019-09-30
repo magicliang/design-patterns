@@ -17,7 +17,7 @@ public interface Iterable<T> {
     /**
      * 生成迭代器
      *
-     * @return
+     * @return 迭代器
      */
     Iterator<T> getIterator();
 }

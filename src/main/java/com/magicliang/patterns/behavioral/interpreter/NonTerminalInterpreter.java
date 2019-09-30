@@ -21,7 +21,7 @@ public class NonTerminalInterpreter implements Interpreter {
      */
     @Override
     public void interpret(Context context) {
-        log.info("NonTermina   lInterpreter" + context.getRequest());
+        log.info("NonTerminalInterpreter" + context.getRequest());
 
     }
 }
