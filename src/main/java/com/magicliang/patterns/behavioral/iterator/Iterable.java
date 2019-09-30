@@ -6,6 +6,7 @@ package com.magicliang.patterns.behavioral.iterator;
  * description:
  * <p>
  * 可迭代类型
+ * 这里的泛型元素不是迭代器，而是"根元素"
  *
  * @author magicliang
  * <p>
