@@ -20,8 +20,8 @@ public class NonTerminalInterpreter implements Interpreter {
      * @param context 上下文
      */
     @Override
-    public void Interpret(Context context) {
-        log.info("NonTerminalInterpreter" + context.getRequest());
+    public void interpret(Context context) {
+        log.info("NonTermina   lInterpreter" + context.getRequest());
 
     }
 }

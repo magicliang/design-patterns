@@ -20,7 +20,7 @@ public class TerminalInterpreter implements Interpreter {
      * @param context 上下文
      */
     @Override
-    public void Interpret(Context context) {
+    public void interpret(Context context) {
         log.info("TerminalInterpreter" + context.getRequest());
     }
 }

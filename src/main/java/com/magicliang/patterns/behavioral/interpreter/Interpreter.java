@@ -16,5 +16,5 @@ public interface Interpreter {
      *
      * @param context 上下文
      */
-    void Interpret(Context context);
+    void interpret(Context context);
 }
