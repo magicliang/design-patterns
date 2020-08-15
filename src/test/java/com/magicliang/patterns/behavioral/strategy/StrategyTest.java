@@ -1,5 +1,7 @@
 package com.magicliang.patterns.behavioral.strategy;
 
+import org.testng.annotations.Test;
+
 /**
  * project name: design-patterns
  * <p>
@@ -9,9 +11,10 @@ package com.magicliang.patterns.behavioral.strategy;
  * <p>
  * date: 2020-08-15 14:24
  */
-public class StrategyExample {
+public class StrategyTest {
 
-    public static void main(String[] args) {
+    @Test
+    public void testStrategy() {
         Context context = new Context(new FirstStrategy());
         context.execute();
 

@@ -1,5 +1,7 @@
 package com.magicliang.patterns.behavioral.state;
 
+import org.testng.annotations.Test;
+
 /**
  * project name: design-patterns
  * <p>
@@ -9,9 +11,10 @@ package com.magicliang.patterns.behavioral.state;
  * <p>
  * date: 2020-08-15 14:18
  */
-public class StatePatternDemo {
+public class StatePatternTest {
 
-    public static void main(String[] args) {
+    @Test
+    public void testPattern() {
         Context context = new Context();
 
         StartState startState = new StartState();
