@@ -23,7 +23,8 @@ public class ConcreteMediator implements Mediator {
     private List<Member> members = Lists.newArrayList();
 
     /**
-     * 像特定的成员发送消息
+     * 向特定的成员发送消息
+     * 其实我们的 cqrs 和 mediator 有相似之处
      *
      * @param id  成员 id
      * @param msg 消息
