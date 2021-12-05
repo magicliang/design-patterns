@@ -3,6 +3,7 @@
  * <p>
  * description: 享元模式
  * <p>
+ * 心法： 提供标准的积木元件。
  * 享元模式有几个特征：
  * 1. 区分 intrinsic state（内部状态）和外部状态（extrinsic state）。
  * 2. 由一个工厂生成一个 flyweight pool。
